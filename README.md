@@ -1,107 +1,174 @@
-# Hi there 👋 I'm Hamid Riaz
+# Hi, I'm Hamid Riaz 👋
 
-### AI Engineer • Computer Vision Developer • Python Programmer
+### AI Engineer · Computer Vision Developer · Python Programmer
 
-I'm passionate about building AI systems that solve real-world problems. My work primarily focuses on **Computer Vision**, **Deep Learning**, and **automation**, with an emphasis on creating practical applications rather than just training models.
+I build **computer vision and deep learning systems focused on real-world applications** — from image classification and object detection to real-time inference and AI automation.
 
-Currently, I'm exploring modern vision architectures such as ConvNeXt V2, CNN design from scratch, YOLO-based object detection, and real-time inference pipelines.
+My work combines **model development, dataset engineering, augmentation, evaluation, and deployment**, with a focus on understanding what happens beyond simply training a model.
+
+Currently working with **PyTorch, CNN architectures, YOLO, EfficientNet, ConvNeXt, OpenCV, and modern computer vision pipelines**.
 
 ---
 
-## 🚀 What I'm Working On
+## 🧠 What I Build
 
-* 🧠 Computer Vision & Deep Learning
-* 📷 Real-time Object Detection
-* 🚛 Intelligent Vehicle Detection Systems
+* 🔬 Deep Learning & Computer Vision systems
+* 👁️ Medical Image Classification
+* 🚛 Real-Time Object Detection
+* 📷 Image & Video Analysis
 * 🌱 Plant Disease Recognition
+* 🧹 Dataset Cleaning & Engineering
+* ⚡ Model Optimization & Evaluation
 * 🤖 AI Automation Tools
-* 📊 Dataset Creation & Annotation
-* ⚡ PyTorch Research Projects
 
 ---
 
-## 💻 Tech Stack
+## 🚀 Current Projects
 
-### Languages
+### 🩺 APTOS Diabetic Retinopathy Classification
 
-* Python
-* JavaScript
-* Java
+A deep learning system for **five-class diabetic retinopathy severity classification** using retinal fundus images from the APTOS 2019 dataset.
 
-### AI & Machine Learning
+The project focuses on building a robust training pipeline rather than simply training a classifier.
 
-* PyTorch
-* OpenCV
-* NumPy
-* Pandas
+**Key components:**
+
+* PyTorch-based training pipeline
+* EfficientNetV2 architecture
+* Advanced image preprocessing and retinal cropping
+* Albumentations-based augmentation
+* Class balancing and adaptive sampling
+* Focal Loss with Label Smoothing
+* Model evaluation using:
+
+  * Accuracy
+  * Macro F1
+  * Balanced Accuracy
+  * ROC-AUC
+  * Cohen's Quadratic Weighted Kappa
+  * Confusion Matrix
+* GPU-accelerated training
+* Experiment tracking and model evaluation
+
+The long-term goal is to develop a **reliable medical image classification pipeline capable of handling class imbalance and difficult retinal cases**.
+
+---
+
+### 🚛 Intelligent Vehicle Detection System
+
+A real-time computer vision system designed to detect and track vehicles entering and leaving a controlled environment.
+
+**Technologies:**
+
 * YOLO
-* CNN
-* ConvNeXt
+* OpenCV
+* Object Tracking
+* OCR
+* PaddleOCR
+* FastAPI
+* PostgreSQL
 
-### Web & Automation
-
-* Selenium
-* BeautifulSoup
-* Requests
-
-### Tools
-
-* Git
-* GitHub
-* VS Code
-* Jupyter Notebook
-* Kaggle
+The system combines **vehicle detection, license-plate recognition, tracking, backend APIs, and historical data management** into a complete application rather than treating object detection as an isolated model.
 
 ---
-
-## 📂 Featured Projects
-
-### 🚛 Intelligent Vehicle Detection
-
-Real-time vehicle detection pipeline using modern object detection models and computer vision techniques.
 
 ### 🌱 Plant Disease Detection
 
-Deep learning models trained to recognize crop diseases from leaf images.
+Deep learning models designed to identify plant diseases from leaf images.
 
-### 🏷️ YOLO Labeling Tool
+The project explores:
 
-Utilities for preparing datasets for object detection.
-
-### 🕸️ Web Scraping Suite
-
-Collection of scrapers for extracting structured data from multiple online platforms.
-
-### 🎥 AI Video Automation
-
-Automation workflows for AI-assisted video generation.
+* CNN-based classification
+* Image preprocessing
+* Dataset augmentation
+* Class balancing
+* Model evaluation
+* Transfer learning
 
 ---
 
-## 📈 Current Learning
+## 🛠️ Tech Stack
 
-* Advanced CNN Architectures
+### Programming
+
+`Python` · `JavaScript` · `Java` · `C++`
+
+### Deep Learning & Computer Vision
+
+`PyTorch` · `TensorFlow` · `Keras` · `OpenCV` · `YOLO` · `CNN` · `EfficientNet` · `ConvNeXt` · `NumPy` · `Pandas` · `scikit-learn`
+
+### Backend & APIs
+
+`FastAPI` · `PostgreSQL`
+
+### Data & Automation
+
+`Selenium` · `BeautifulSoup` · `Requests`
+
+### Development Tools
+
+`Git` · `GitHub` · `VS Code` · `Jupyter` · `Kaggle` · `Google Colab`
+
+---
+
+## 📂 Other Projects
+
+### 🏷️ YOLO Dataset & Labeling Tools
+
+Utilities for preparing, validating, cleaning, and managing datasets for object detection.
+
+Includes workflows for:
+
+* Annotation validation
+* Dataset cleaning
+* Duplicate detection
+* YOLO label verification
+* Dataset organization
+
+### 🕸️ Web Scraping Suite
+
+Python-based tools for collecting and transforming publicly available web data into structured datasets.
+
+### 🎥 AI Video Automation
+
+Automation workflows for generating and processing AI-assisted video content.
+
+---
+
+## 📚 Currently Learning
+
+* Advanced CNN Architecture Design
 * ConvNeXt V2
 * Vision Transformers
+* Medical Computer Vision
 * Model Optimization
-* Large-scale Dataset Engineering
+* Advanced Data Augmentation
+* Large-Scale Dataset Engineering
+* Real-Time Inference
 * Production AI Systems
 
 ---
 
-## 🎯 Goals
+## 🎯 Engineering Goals
 
-* Build production-ready Computer Vision applications.
-* Master modern deep learning architectures.
-* Contribute useful open-source AI tools.
-* Develop scalable real-time AI systems.
+I want to move beyond **"train a model and report accuracy"** and build complete AI systems that are:
+
+* **Reliable** — evaluated beyond a single metric
+* **Efficient** — optimized for real-world inference
+* **Robust** — tested against difficult and imbalanced data
+* **Scalable** — designed as complete pipelines
+* **Practical** — built to solve actual problems
+
+My long-term focus is becoming a stronger **AI/Computer Vision engineer capable of taking a project from raw data → model → evaluation → deployment**.
 
 ---
 
 ## 📫 Connect
 
-Feel free to explore my repositories and follow my journey as I continue building AI and Computer Vision projects.
+Explore my repositories to see the systems and experiments I'm building.
+
+I'm continuously working on **Computer Vision, Deep Learning, AI automation, and intelligent real-world applications**.
 
 ---
 
-> *"Every project is another step toward mastering intelligent systems."*
+> **Build. Measure. Understand. Improve.**
