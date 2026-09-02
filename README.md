@@ -171,4 +171,4 @@ I'm continuously working on **Computer Vision, Deep Learning, AI automation, and
 
 ---
 
-> **Build. Measure. Understand. Improve.**
+> **Build. Measure. Understand. Improve .**
