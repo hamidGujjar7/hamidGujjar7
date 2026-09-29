@@ -1,4 +1,4 @@
-# Hi, I'm Hamid Riaz
+# Hi, I'm Hamid 
 
 ### AI Engineer | Computer Vision Developer | Python Programmer
 
