@@ -1,107 +1,182 @@
-# Hi, I'm Hamid Riaz 👋
+# Hi, I'm Hamid Riaz
 
-### AI Engineer · Computer Vision Developer · Python Programmer
+### AI Engineer | Computer Vision Developer | Python Programmer
 
-I build **computer vision and deep learning systems focused on real-world applications** — from image classification and object detection to real-time inference and AI automation.
+I build **computer vision and deep learning systems for practical applications**, with experience across dataset engineering, image preprocessing, model training, evaluation, and deployment.
 
-My work combines **model development, dataset engineering, augmentation, evaluation, and deployment**, with a focus on understanding what happens beyond simply training a model.
-
-Currently working with **PyTorch, CNN architectures, YOLO, EfficientNet, ConvNeXt, OpenCV, and modern computer vision pipelines**.
+My work focuses on taking projects from **raw data to working AI systems**, including medical image classification, object detection, document/image preprocessing, plant disease detection, and real-time computer vision.
 
 ---
 
-## 🧠 What I Build
+## Areas of Work
 
-* 🔬 Deep Learning & Computer Vision systems
-* 👁️ Medical Image Classification
-* 🚛 Real-Time Object Detection
-* 📷 Image & Video Analysis
-* 🌱 Plant Disease Recognition
-* 🧹 Dataset Cleaning & Engineering
-* ⚡ Model Optimization & Evaluation
-* 🤖 AI Automation Tools
+* Computer Vision and Deep Learning
+* Image Classification and Object Detection
+* Medical Image Analysis
+* Document, Invoice, Receipt, and Check Image Preprocessing
+* Plant Disease Detection
+* Dataset Cleaning, Annotation, Balancing, and Validation
+* Model Training and Evaluation
+* Web Scraping and Data Collection
+* AI Application Development
 
 ---
 
-## 🚀 Current Projects
+## Featured Projects
 
-### 🩺 APTOS Diabetic Retinopathy Classification
+### APTOS Diabetic Retinopathy Classification
 
-A deep learning system for **five-class diabetic retinopathy severity classification** using retinal fundus images from the APTOS 2019 dataset.
+Deep learning system for **five-class diabetic retinopathy severity classification** using retinal fundus images from the APTOS 2019 dataset.
 
-The project focuses on building a robust training pipeline rather than simply training a classifier.
+Key components:
 
-**Key components:**
-
-* PyTorch-based training pipeline
-* EfficientNetV2 architecture
-* Advanced image preprocessing and retinal cropping
-* Albumentations-based augmentation
-* Class balancing and adaptive sampling
-* Focal Loss with Label Smoothing
-* Model evaluation using:
-
-  * Accuracy
-  * Macro F1
-  * Balanced Accuracy
-  * ROC-AUC
-  * Cohen's Quadratic Weighted Kappa
-  * Confusion Matrix
+* EfficientNetV2-based classification
+* Retinal image preprocessing and cropping
+* Image augmentation
+* Class balancing and sampling
+* Focal Loss and Label Smoothing
 * GPU-accelerated training
-* Experiment tracking and model evaluation
+* Comprehensive model evaluation
 
-The long-term goal is to develop a **reliable medical image classification pipeline capable of handling class imbalance and difficult retinal cases**.
+Evaluation includes:
+
+* Accuracy
+* Macro F1
+* Balanced Accuracy
+* ROC-AUC
+* Cohen's Quadratic Weighted Kappa
+* Confusion Matrix
+
+The project focuses on handling **class imbalance, difficult retinal images, and reliable evaluation** rather than relying on accuracy alone.
 
 ---
 
-### 🚛 Intelligent Vehicle Detection System
+### FOOLVISION — Plant Disease Detection System
 
-A real-time computer vision system designed to detect and track vehicles entering and leaving a controlled environment.
+Final Year Project focused on **vegetable disease detection using computer vision**.
 
-**Technologies:**
+The system uses a multi-stage pipeline to identify the vegetable and detect visible disease regions.
 
-* YOLO
+Supported crops include:
+
+* Tomato
+* Potato
+* Cucumber
+
+Key components:
+
+* Vegetable classification
+* YOLO-based disease detection
+* Image and video-based prediction
+* Disease region detection
+* Dataset preparation and annotation
+* Disease information library
+* FastAPI backend
+* React frontend
+* PostgreSQL database
+
+The project combines **computer vision, backend APIs, database management, and web application development** into a complete AI-powered application.
+
+---
+
+### Intelligent Vehicle Detection System
+
+Computer vision system for detecting and managing vehicles in controlled environments.
+
+Technologies and components include:
+
+* YOLO object detection
 * OpenCV
-* Object Tracking
-* OCR
+* Vehicle tracking
+* License plate detection
 * PaddleOCR
 * FastAPI
 * PostgreSQL
 
-The system combines **vehicle detection, license-plate recognition, tracking, backend APIs, and historical data management** into a complete application rather than treating object detection as an isolated model.
+The system combines detection, OCR, backend APIs, and database management into an end-to-end computer vision application.
 
 ---
 
-### 🌱 Plant Disease Detection
+### AI Invoice, Receipt & Check Preprocessing
 
-Deep learning models designed to identify plant diseases from leaf images.
+Computer vision preprocessing workflows for improving images of **invoices, receipts, and financial checks** before downstream OCR or document analysis.
 
-The project explores:
+Work includes:
 
-* CNN-based classification
-* Image preprocessing
-* Dataset augmentation
+* Image quality assessment
+* Noise and artifact removal
+* Image resizing and normalization
+* Perspective correction
+* Document alignment
+* Cropping and background processing
+* Thresholding and contrast enhancement
+* OCR-oriented preprocessing
+
+The goal is to convert inconsistent real-world document images into cleaner inputs suitable for OCR and automated document processing.
+
+---
+
+## Web Scraping & Data Collection
+
+Python-based web scraping workflows for collecting and transforming publicly available web data into structured datasets.
+
+Technologies include:
+
+* Python
+* Selenium
+* BeautifulSoup
+* Requests
+* Pandas
+
+Work includes:
+
+* Automated data collection
+* HTML parsing
+* Structured data extraction
+* Dataset generation
+* Data cleaning and transformation
+
+---
+
+## Dataset Engineering
+
+A significant part of my computer vision work involves preparing datasets before model training.
+
+Experience includes:
+
+* Dataset cleaning
+* YOLO annotation validation
+* Label correction
+* Duplicate detection
 * Class balancing
-* Model evaluation
-* Transfer learning
+* Dataset splitting
+* Image preprocessing
+* Annotation analysis
+* Data augmentation
+* Dataset organization
+* Training/validation/test preparation
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Programming
 
-`Python` · `JavaScript` · `Java` · `C++`
+`Python` · `C++` · `Java` · `JavaScript`
 
 ### Deep Learning & Computer Vision
 
-`PyTorch` · `TensorFlow` · `Keras` · `OpenCV` · `YOLO` · `CNN` · `EfficientNet` · `ConvNeXt` · `NumPy` · `Pandas` · `scikit-learn`
+`PyTorch` · `TensorFlow` · `Keras` · `YOLO` · `OpenCV` · `EfficientNet` · `ConvNeXt` · `CNN`
 
-### Backend & APIs
+### Data Science
+
+`NumPy` · `Pandas` · `scikit-learn`
+
+### Backend & Databases
 
 `FastAPI` · `PostgreSQL`
 
-### Data & Automation
+### Web Scraping
 
 `Selenium` · `BeautifulSoup` · `Requests`
 
@@ -109,66 +184,44 @@ The project explores:
 
 `Git` · `GitHub` · `VS Code` · `Jupyter` · `Kaggle` · `Google Colab`
 
----
+### Frontend
 
-## 📂 Other Projects
-
-### 🏷️ YOLO Dataset & Labeling Tools
-
-Utilities for preparing, validating, cleaning, and managing datasets for object detection.
-
-Includes workflows for:
-
-* Annotation validation
-* Dataset cleaning
-* Duplicate detection
-* YOLO label verification
-* Dataset organization
-
-### 🕸️ Web Scraping Suite
-
-Python-based tools for collecting and transforming publicly available web data into structured datasets.
-
-### 🎥 AI Video Automation
-
-Automation workflows for generating and processing AI-assisted video content.
+`React` · `HTML` · `CSS` · `JavaScript`
 
 ---
 
-## 📚 Currently Learning
+## Engineering Focus
 
-* Advanced CNN Architecture Design
-* ConvNeXt V2
+I am interested in building AI systems that go beyond simply training a model.
+
+My focus is on:
+
+* **Data** — collecting, cleaning, validating, and understanding datasets
+* **Models** — selecting and training appropriate architectures
+* **Evaluation** — measuring performance using relevant metrics
+* **Robustness** — handling imbalance, noise, and difficult samples
+* **Deployment** — connecting models to usable applications
+* **Optimization** — making systems practical for real-world environments
+
+My goal is to become a stronger **AI and Computer Vision engineer capable of taking a project from raw data → preprocessing → model → evaluation → deployment**.
+
+---
+
+## Currently Exploring
+
+* Advanced CNN architectures
 * Vision Transformers
 * Medical Computer Vision
-* Model Optimization
-* Advanced Data Augmentation
-* Large-Scale Dataset Engineering
-* Real-Time Inference
-* Production AI Systems
+* Model optimization
+* Advanced data augmentation
+* Large-scale dataset engineering
+* Real-time inference
+* Production AI systems
 
 ---
 
-## 🎯 Engineering Goals
+## Connect
 
-I want to move beyond **"train a model and report accuracy"** and build complete AI systems that are:
+Explore my repositories to see my computer vision projects, datasets, experiments, and AI applications.
 
-* **Reliable** — evaluated beyond a single metric
-* **Efficient** — optimized for real-world inference
-* **Robust** — tested against difficult and imbalanced data
-* **Scalable** — designed as complete pipelines
-* **Practical** — built to solve actual problems
-
-My long-term focus is becoming a stronger **AI/Computer Vision engineer capable of taking a project from raw data → model → evaluation → deployment**.
-
----
-
-## 📫 Connect
-
-Explore my repositories to see the systems and experiments I'm building.
-
-I'm continuously working on **Computer Vision, Deep Learning, AI automation, and intelligent real-world applications**.
-
----
-
-> **Build. Measure. Understand. Improve .**
+**Computer Vision · Deep Learning · Python · Data Engineering · AI Applications**
